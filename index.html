@@ -20,16 +20,20 @@
                             <form class="add">
                                 <fieldset class="fieldset">
                                     <legend class="legend">Fill Out the Book Information</legend>
+                                    <div class="required">Required *</div>
                                         <div class="author">
-                                            <label for="author">Author</label>
+                                            <label for="author">Author*</label>
+                                            <span class="authorRequired"></span>
                                             <input type="text" id="author" name="author" placeholder="Author" value="" required>
                                         </div>
                                         <div class="title">
-                                            <label for="title">Title</label>
+                                            <label for="title">Title*</label>
+                                            <span class='titleRequired'></span>
                                             <input type="text" id="title" name="title" placeholder="Title" value="" required>
                                         </div>
                                         <div class="pcount">
-                                            <label for="pcount">Number of Pages</label>
+                                            <label for="pcount">Number of Pages*</label>
+                                            <span class="pcountRequired"></span>
                                             <input type="number" id="pcount" name="pcount" placeholder="# Of Pages" value="" required>
                                         </div>
                                         <button class="submit">Submit</button>
